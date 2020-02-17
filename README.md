@@ -1,6 +1,6 @@
 # Beetroot Front-end
 
-* [Lesson 1](https://Nikitaudav.github.io/beetroot/lesson_1)
+* [Lesson 1](https://Nikitaudav.github.io/beetroot/lesson_1/)
 * Lesson 2
   * Lesson 2.1
     * [Lesson 2.1](https://Nikitaudav.github.io/beetroot/lesson_2/Homework_2_List)
