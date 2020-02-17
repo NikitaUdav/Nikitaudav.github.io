@@ -9,5 +9,5 @@
     * [Lesson 2.2.2](https://Nikitaudav.github.io/beetroot/Lesson_2/Homework_2_chain2/index.html)
 * Lesson 3 How To Git !
 * Lesson 4
-  * [Lesson 4.1](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_1/index.html)
-  * [Lesson 4.2](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_2/index.html)
+  * [Lesson 4.1](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_1)
+  * [Lesson 4.2](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_2)
