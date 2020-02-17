@@ -1,0 +1,51 @@
+.list {
+  max-width: 788px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 278px;
+  bottom: 0;
+}
+header {
+  max-width: 781px;
+  background-color: rgb(165, 42, 42);
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 3px;
+  left: 7px;
+}
+main {
+  position: relative;
+  left: 7px;
+}
+p {
+  font-size: 18px;
+}
+footer {
+  position: relative;
+  background-color: black;
+  color: white;
+  left: 7px;
+  text-align: center;
+  font-size: 20px;
+  top: 30px;
+}
+.car {
+  border: 3px dashed black;
+}
+li {
+  position: relative;
+  left: 150px;
+  list-style-type: none;
+  display: inline;
+}
+.strong {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.lin {
+  text-decoration: none;
+}
