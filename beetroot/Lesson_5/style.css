@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  height: 420px;
+}
+.image-logo {
+  margin-top: 120px;
+  margin-bottom: 51px;
+}
+.text {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  margin-bottom: 21px;
+}
+
+.line {
+  margin: auto;
+  display: block;
+  height: 1px;
+  width: 230px;
+  background-color: #acacac;
+  margin-bottom: 22px;
+}
+.image-item {
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  display: inline;
+  justify-content: center;
+}
+.info {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  margin-top: 86px;
+}
+.link-kasper {
+  text-decoration: none;
+  color: #00c9fc;
+}
