@@ -11,7 +11,6 @@ header {
   background-color: rgb(165, 42, 42);
   color: white;
   text-align: center;
-  position: relative;
 }
 .main-img {
   width: 100%;
@@ -47,9 +46,11 @@ main {
   flex: 1 0 auto;
 }
 .wapper {
-  display: flex;
   flex-direction: column;
   min-height: 100%;
+  display: block;
+  width: 850px;
+  margin: auto;
 }
 .footer {
   background-color: black;
@@ -57,4 +58,11 @@ main {
   text-align: center;
   font-size: 20px;
   flex: 0 0 auto;
+}
+.center {
+}
+.center-box {
+  display: block;
+  width: 700px;
+  margin: auto;
 }
