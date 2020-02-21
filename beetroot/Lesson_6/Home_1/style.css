@@ -50,7 +50,7 @@ html {
   background-color: var(--blue);
 }
 .list__border__img:hover {
-  transition: 700ms;
+  transition: all ease 700ms;
   background-color: var(--white);
   fill: #1275b9;
 }
