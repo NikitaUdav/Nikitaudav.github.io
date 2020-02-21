@@ -13,16 +13,17 @@
   padding: 0;
   box-sizing: border-box;
   transition: all 0.2s ease-in;
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 html,
 body {
   min-height: 100vh;
   min-width: 100vh;
 }
-.list__item:nth-child(odd) {
+.label:nth-child(odd) .list__item {
   background-color: var(--lightGray);
 }
-.list__item:nth-child(even) {
+.label:nth-child(even) .list__item {
   background-color: var(--ligtBlack);
 }
 .wrapper {
@@ -36,6 +37,7 @@ body {
   height: 95px;
   background-color: var(--ligtBlack);
   color: var(--brown);
+  margin-bottom: 40px;
 }
 .header__title {
   padding-top: 15px;
@@ -47,20 +49,29 @@ body {
 .list {
   font-size: 20px;
   margin: 0 auto;
-  width: 500px;
+  width: 800px;
   text-align: left;
+  margin-bottom: 40px;
 }
 
 .list__item {
-  margin-top: 10px;
+  padding: 20px 0px 20px 15px;
   color: white;
   font-size: 20px;
+  vertical-align: text-bottom;
 }
 
 .list__item:hover {
-  background-color: var(--Select);
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  background-color: var(--Select) !important;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+}
+.list__item:active {
+  background-color: red !important;
+}
+input:checked + .text {
+  text-decoration-line: line-through;
+  color: var(--textCheckbox);
 }
 .text__checkbox {
   font-size: 15px;
@@ -68,12 +79,23 @@ body {
 }
 
 .text__checkbox::before {
-  content: "( ";
+  content: " ( ";
 }
 .text__checkbox::after {
-  content: " )";
+  content: " ) ";
 }
 .checkbox {
+  vertical-align: middle;
   width: 20px;
   height: 20px;
+}
+.button {
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  color: var(--brown);
+  background-color: var(--ligtBlack);
+  margin: 0 auto;
+  width: 800px;
+  padding: 20px 0px 20px 15px;
 }
