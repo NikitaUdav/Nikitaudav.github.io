@@ -22,14 +22,13 @@ html {
 body {
   min-width: 100vh;
   min-height: 100vh;
-
   background-color: var(--black);
   text-align: center;
 }
-.label:nth-child(odd) .list__item {
+.label:nth-child(odd) .list__item:not(:hover) {
   background-color: var(--lightGray);
 }
-.label:nth-child(even) .list__item {
+.label:nth-child(even) .list__item:not(:hover) {
   background-color: var(--ligtBlack);
 }
 
@@ -49,7 +48,7 @@ body {
 .list {
   font-size: 20px;
   margin: 0 auto;
-  width: 700px;
+  width: 55%;
   text-align: left;
   margin-bottom: 40px;
 }
@@ -65,11 +64,11 @@ body {
 }
 
 .list__item:hover {
-  background-color: var(--Select) !important;
+  background-color: var(--Select);
   border-color: white;
 }
 .list__item:active {
-  background-color: red !important;
+  background-color: red;
 }
 input:checked + .text {
   text-decoration-line: line-through;
@@ -98,6 +97,6 @@ input:checked + .text {
   color: var(--brown);
   background-color: var(--ligtBlack);
   margin: 0 auto;
-  width: 800px;
+  width: 55%;
   padding: 20px 0px 20px 15px;
 }
