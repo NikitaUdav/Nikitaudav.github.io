@@ -41,6 +41,7 @@ html {
   margin-top: 17px;
 }
 .list__border__img {
+  transition: all ease 700ms;
   margin: 0 auto;
   height: 63px;
   width: 65px;
@@ -50,7 +51,6 @@ html {
   background-color: var(--blue);
 }
 .list__border__img:hover {
-  transition: 700ms;
   background-color: var(--white);
   fill: #1275b9;
 }

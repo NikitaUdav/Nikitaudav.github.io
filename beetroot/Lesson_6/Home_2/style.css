@@ -15,24 +15,23 @@
   transition: all 0.2s ease-in;
   font-family: "Trebuchet MS", Arial, sans-serif;
 }
-html,
+html {
+  margin: 10px;
+  background-color: white;
+}
 body {
-  min-height: 100vh;
-  min-width: 100vh;
-}
-.label:nth-child(odd) .list__item {
-  background-color: var(--lightGray);
-}
-.label:nth-child(even) .list__item {
-  background-color: var(--ligtBlack);
-}
-.wrapper {
   min-width: 100vh;
   min-height: 100vh;
-  margin: 18px;
   background-color: var(--black);
   text-align: center;
 }
+.label:nth-child(odd) .list__item:not(:hover) {
+  background-color: var(--lightGray);
+}
+.label:nth-child(even) .list__item:not(:hover) {
+  background-color: var(--ligtBlack);
+}
+
 .header {
   height: 95px;
   background-color: var(--ligtBlack);
@@ -49,25 +48,27 @@ body {
 .list {
   font-size: 20px;
   margin: 0 auto;
-  width: 800px;
+  width: 55%;
   text-align: left;
   margin-bottom: 40px;
 }
 
 .list__item {
+  display: block;
   padding: 20px 0px 20px 15px;
   color: white;
   font-size: 20px;
-  vertical-align: text-bottom;
+  transition: all ease 0.2s;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 
 .list__item:hover {
-  background-color: var(--Select) !important;
-  border-top: 5px solid white;
-  border-bottom: 5px solid white;
+  background-color: var(--Select);
+  border-color: white;
 }
 .list__item:active {
-  background-color: red !important;
+  background-color: red;
 }
 input:checked + .text {
   text-decoration-line: line-through;
@@ -96,6 +97,6 @@ input:checked + .text {
   color: var(--brown);
   background-color: var(--ligtBlack);
   margin: 0 auto;
-  width: 800px;
+  width: 55%;
   padding: 20px 0px 20px 15px;
 }
