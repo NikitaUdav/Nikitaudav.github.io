@@ -1,0 +1,125 @@
+@import url("weather-icons-wind.css");
+@import url("weather-icons.css");
+
+:root {
+  --back-main-color: #2b81ac;
+  --main-color: #3399cc;
+  --border-color: #ffffff;
+  --text-color: #ffffff;
+  --light-text: #c6bac8;
+  --block1: #33cccc;
+  --block2: #996699;
+  --block3: #c24747;
+  --block4: #e2674a;
+  --block5: #ffcc66;
+  --block6: #99cc99;
+  --block7: #669999;
+  --block8: #cc6699;
+  --block9: #339966;
+  --block10: #666699;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--back-main-color);
+}
+
+body {
+  margin: 24px;
+  background-color: var(--main-color);
+  min-height: 100vh;
+  min-width: 100vh;
+  font-family: "Heebo";
+}
+main {
+  margin: 0 auto;
+  width: 980px;
+}
+.header__title {
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: var(--text-color);
+  font-size: 2rem;
+  margin-right: 10px;
+}
+.title__icon {
+  color: var(--text-color);
+  font-size: 45px;
+}
+
+.list {
+  border: 3px solid var(--border-color);
+  height: 605px;
+  list-style: none;
+  margin-bottom: 35px;
+}
+.list__item {
+  border: 3px solid var(--border-color);
+  display: inline-block;
+  margin-right: -4px;
+  height: 150px;
+  text-align: center;
+  font-size: 25px;
+  color: var(--light-text);
+}
+.item__title {
+  padding-top: 25px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+.item__icon {
+  font-size: 35px;
+  padding-left: 10px;
+}
+.end-text {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+.blocksize25 {
+  width: 25%;
+}
+.blocksize50 {
+  width: 50%;
+}
+.blocksize100 {
+  width: 100%;
+}
+.block0 {
+  background-color: var(--main-color);
+}
+.block1 {
+  background-color: var(--block1);
+}
+.block2 {
+  background-color: var(--block2);
+}
+.block3 {
+  background-color: var(--block3);
+}
+.block4 {
+  background-color: var(--block4);
+}
+.block5 {
+  background-color: var(--block5);
+}
+.block6 {
+  background-color: var(--block6);
+}
+.block7 {
+  background-color: var(--block7);
+}
+.block8 {
+  background-color: var(--block8);
+}
+.block9 {
+  background-color: var(--block9);
+}
+.block10 {
+  background-color: var(--block10);
+}
