@@ -15,3 +15,6 @@
 * Lesson 6
   * [Lesson 6.1](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_1)
   * [Lesson 6.2](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_2/index.html)
+* Lesson 7
+  * [Lesson 7.1](https://Nikitaudav.github.io/beetroot/Lesson_7/Home_1)
+  * [Lesson 7.2](https://Nikitaudav.github.io/beetroot/Lesson_7/Home_2)
