@@ -27,14 +27,15 @@
 
 html {
   background-color: var(--back-main-color);
+  min-width: 100%;
 }
 
 body {
   margin: 24px;
   font-family: "Heebo";
   background-color: var(--main-color);
-  min-height: 100vh;
-  min-width: 100vh;
+
+  min-width: 100%;
 }
 
 main {
@@ -56,25 +57,33 @@ main {
 
 .list {
   border: 4px solid var(--border-color);
-  height: 608px;
-  width: 1000px;
   list-style: none;
   margin-bottom: 35px;
+  font-size: 0;
 }
+
 .list__item {
   border: 4px solid var(--border-color);
   display: inline-block;
-  margin-right: -0.4%;
+  font-size: 25px;
   height: 150px;
   text-align: center;
-  font-size: 25px;
   color: var(--light-text);
 }
+
+.list__item:nth-child(even) {
+  background-color: var(--block3);
+}
+.list__item:nth-child(odd) {
+  background-color: var(--block2);
+}
+
 .item__title {
   padding-top: 25px;
   margin-bottom: 10px;
   color: var(--text-color);
 }
+
 .item__icon {
   font-size: 35px;
   padding-left: 10px;
@@ -92,36 +101,9 @@ main {
 .blocksize100 {
   width: 100%;
 }
-.block0 {
-  background-color: var(--main-color);
+ul:hover li {
+  opacity: 0.5;
 }
-.block1 {
-  background-color: var(--block1);
-}
-.block2 {
-  background-color: var(--block2);
-}
-.block3 {
-  background-color: var(--block3);
-}
-.block4 {
-  background-color: var(--block4);
-}
-.block5 {
-  background-color: var(--block5);
-}
-.block6 {
-  background-color: var(--block6);
-}
-.block7 {
-  background-color: var(--block7);
-}
-.block8 {
-  background-color: var(--block8);
-}
-.block9 {
-  background-color: var(--block9);
-}
-.block10 {
-  background-color: var(--block10);
+ul:hover li:hover {
+  opacity: 1;
 }

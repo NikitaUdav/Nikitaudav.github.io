@@ -1,0 +1,67 @@
+:root {
+  --price-color: #02995b;
+  --text--color: #333333;
+  --maim-color: #fdde7e;
+  --back-list-item-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: var(--maim-color);
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  margin-top: 80px;
+  min-height: 500px;
+  order: 1;
+}
+.list__item {
+  transition: ease 0.2s;
+  cursor: pointer;
+  text-align: center;
+  width: 361px;
+  height: 440px;
+  border-radius: 3%;
+  background-color: var(--back-list-item-color);
+}
+.list__item:hover {
+  transform: scaleY(1.1);
+}
+.list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.item__title {
+  padding-top: 52px;
+  margin-bottom: 50px;
+  color: var(--price-color);
+  font-family: fantasy;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.75px;
+}
+.item__img {
+  margin-bottom: 38px;
+}
+.item__text__title {
+  font-family: Lato;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 35px;
+}
+.item__text {
+  font-family: "Lato Light";
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
