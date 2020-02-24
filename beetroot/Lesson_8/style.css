@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.a1 {
+  flex-grow: 3;
+  background-color: cyan;
+  max-height: 200px;
+  margin: 10px;
+}
+.a2 {
+  flex-grow: 1;
+  background-color: cyan;
+  max-height: 200px;
+  margin: 10px;
+}
+.a3 {
+  flex-grow: 0;
+  background-color: cyan;
+  max-height: 200px;
+  margin: 10px;
+}
+.a4 {
+  flex-grow: 0;
+  background-color: cyan;
+  max-height: 200px;
+  margin: 10px;
+}

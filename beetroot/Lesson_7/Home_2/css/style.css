@@ -31,14 +31,15 @@ html {
 
 body {
   margin: 24px;
+  font-family: "Heebo";
   background-color: var(--main-color);
   min-height: 100vh;
   min-width: 100vh;
-  font-family: "Heebo";
 }
+
 main {
   margin: 0 auto;
-  width: 1000px;
+  max-width: 1000px;
 }
 .header__title {
   display: inline-block;
@@ -54,15 +55,16 @@ main {
 }
 
 .list {
-  border: 3px solid var(--border-color);
-  height: 605px;
+  border: 4px solid var(--border-color);
+  height: 608px;
+  width: 1000px;
   list-style: none;
   margin-bottom: 35px;
 }
 .list__item {
-  border: 3px solid var(--border-color);
+  border: 4px solid var(--border-color);
   display: inline-block;
-  margin-right: -4px;
+  margin-right: -0.4%;
   height: 150px;
   text-align: center;
   font-size: 25px;
