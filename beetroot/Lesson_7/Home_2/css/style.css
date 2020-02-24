@@ -70,12 +70,46 @@ main {
   text-align: center;
   color: var(--light-text);
 }
+.list__item:nth-child(1) {
+  background-color: var(--main-color);
+}
 
-.list__item:nth-child(even) {
+.list__item:nth-child(2) {
+  background-color: var(--block1);
+}
+
+.list__item:nth-child(3) {
+  background-color: var(--block2);
+}
+
+.list__item:nth-child(4) {
   background-color: var(--block3);
 }
-.list__item:nth-child(odd) {
-  background-color: var(--block2);
+
+.list__item:nth-child(5) {
+  background-color: var(--block4);
+}
+
+.list__item:nth-child(6) {
+  background-color: var(--block5);
+}
+
+.list__item:nth-child(7) {
+  background-color: var(--block6);
+}
+
+.list__item:nth-child(8) {
+  background-color: var(--block7);
+}
+
+.list__item:nth-child(9) {
+  background-color: var(--block8);
+}
+.list__item:nth-child(10) {
+  background-color: var(--block9);
+}
+.list__item:nth-child(11) {
+  background-color: var(--block10);
 }
 
 .item__title {
