@@ -16,15 +16,17 @@ body {
   background-color: var(--maim-color);
 }
 .list {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 80px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
-  margin-top: 80px;
   min-height: 500px;
-  order: 1;
 }
 .list__item {
+  margin: 0 auto 50px auto;
   transition: ease 0.2s;
   cursor: pointer;
   text-align: center;
@@ -36,9 +38,7 @@ body {
 .list__item:hover {
   transform: scaleY(1.1);
 }
-.list__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .item__title {
   padding-top: 52px;
   margin-bottom: 50px;
