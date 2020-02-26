@@ -35,7 +35,6 @@ body {
   margin: 24px;
   font-family: "Heebo";
   background-color: var(--main-color);
-  min-width: 100%;
 }
 
 main {
