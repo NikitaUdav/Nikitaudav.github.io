@@ -28,6 +28,7 @@ body {
 }
 .list__item {
   flex-basis: 30%;
+  min-width: 300px;
   margin: 0 auto 50px auto;
   transition: ease 0.2s;
   cursor: pointer;
