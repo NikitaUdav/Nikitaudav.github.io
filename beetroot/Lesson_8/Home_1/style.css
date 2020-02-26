@@ -11,57 +11,60 @@
   box-sizing: border-box;
 }
 body {
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  min-height: 1000px;
   background-color: var(--maim-color);
+  padding-top: 40px;
 }
 .list {
+  padding-top: 20px;
   margin: 0 auto;
   max-width: 1200px;
-  padding-top: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
-  min-height: 500px;
+  height: 600px;
 }
 .list__item {
+  flex-basis: 30%;
   margin: 0 auto 50px auto;
   transition: ease 0.2s;
   cursor: pointer;
   text-align: center;
-  width: 361px;
-  height: 440px;
+  align-self: center;
   border-radius: 3%;
   background-color: var(--back-list-item-color);
 }
 .list__item:hover {
-  transform: scaleY(1.1);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .item__title {
-  padding-top: 52px;
+  padding-top: 10px;
   margin-bottom: 50px;
   color: var(--price-color);
   font-family: fantasy;
   font-size: 60px;
-  font-weight: 700;
-  line-height: 24px;
   letter-spacing: 1.75px;
 }
-.item__img {
+.img__conteiner {
   margin-bottom: 38px;
 }
 .item__text__title {
   font-family: Lato;
   font-size: 39px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1;
   margin-bottom: 35px;
 }
 .item__text {
+  margin: 0 auto;
+  display: block;
+  max-width: 120px;
   font-family: "Lato Light";
   font-weight: 400;
   letter-spacing: 0.5px;
-  line-height: 26px;
+  line-height: 1.5;
 }
