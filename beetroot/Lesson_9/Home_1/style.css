@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:400,700&display=swap");
+
+:root {
+  --main-color: #ffffff;
+  --title-color: #171717;
+  --article-text-opacity: 0.7;
+  --link-color: #eaa258;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(233, 230, 230);
+}
+.main {
+  margin: 0 auto;
+  max-width: 1141px;
+  height: 500px;
+}
+.title {
+  padding-top: 140px;
+  margin-bottom: 39px;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-weight: 400;
+  letter-spacing: -0.21px;
+}
+.main-article__f-letter {
+  float: left;
+  margin-right: 25px;
+  font-family: "Playfair Display";
+  font-size: 6.7rem;
+  font-weight: 400;
+  line-height: 0.8;
+  text-transform: uppercase;
+  letter-spacing: -0.55px;
+}
+.text {
+  text-align: left;
+  max-width: 1030px;
+  opacity: 0.7;
+  color: var(--title-color);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+}
+.text:not(:last-of-type) {
+  margin-bottom: 56px;
+}
+.text:last-of-type {
+  margin-bottom: 25px;
+}
+.text__after-text {
+  display: inline-block;
+}
+.quote-wrapper::before {
+  font-style: italic;
+  font-family: Lato;
+  content: "“";
+  margin-right: 10px;
+  float: left;
+  font-size: 60px;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+  opacity: 0.7;
+  font-weight: 300;
+}
+.quote {
+  font-family: Lato;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 20px;
+  opacity: 0.7;
+  font-size: 24px;
+  letter-spacing: -0.12px;
+  line-height: 34px;
+  margin-bottom: 39px;
+}
+.link-wrapper {
+  display: inline-block;
+  border: 2px solid var(--link-color);
+  height: 68px;
+  width: 264px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.link {
+  display: inline-block;
+  height: 68px;
+  width: 264px;
+  padding-top: 21px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  text-decoration: none;
+  color: var(--link-color);
+}
