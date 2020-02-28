@@ -25,5 +25,5 @@
   * [Homework 9.1](https://Nikitaudav.github.io/beetroot/Lesson_9/Home_1)
   * [Homework 9.2](https://Nikitaudav.github.io/beetroot/Lesson_9/Home_2)
 #### :heavy_check_mark: Lesson 10
-  * [Homework 10.1](https://Nikitaudav.github.io/beetroot/Lesson_10/Home_1)
+  * [Homework 10.1](https://Nikitaudav.github.io/beetroot/Lesson_10/Home_1/index.html)
   
