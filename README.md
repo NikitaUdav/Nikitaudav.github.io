@@ -1,6 +1,6 @@
 # Beetroot Front-end
 
-* [Lesson 1](https://Nikitaudav.github.io/beetroot/Lesson_1/index.html)
+###### :heavy_check_mark: [Lesson 1](https://Nikitaudav.github.io/beetroot/Lesson_1/index.html)
 * Lesson 2
   * Lesson 2.1
     * [Lesson 2.1](https://Nikitaudav.github.io/beetroot/Lesson_2/Homework_2_List/index.html)
