@@ -1,0 +1,129 @@
+@import url(./fonts/stylesheet.css);
+:root {
+  --form-text: #fefefe;
+  --name-input: #767676;
+  --border-form: rgba(255, 255, 255, 0.1);
+  --back-main: #464f54;
+  --navigation: #181818;
+  --tool-list: #fbc02d;
+  --main-back: #ffffff;
+  --main-text-left-border: #e8eced;
+  --main__aut-date: #b4b4b4;
+  --main__title: #2a2a2a;
+  --main__under-title: #8f8f8f;
+  --main-text: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--back-main);
+  position: relative;
+  min-width: 1076px;
+}
+.form {
+  position: fixed;
+  width: 876px;
+  height: 187px;
+  top: 47px;
+  right: 0;
+  background-color: var(--navigation);
+  padding-left: 63px;
+  padding-top: 50px;
+}
+.name-input {
+  display: block;
+  color: var(--name-input);
+  font-family: "proxima_novaregular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+}
+.input-title {
+  font-family: "Playfair Display";
+  width: 100%;
+  font-size: 48px;
+  font-weight: 400;
+  color: var(--form-text);
+  background-color: var(--navigation);
+  border: none;
+  border-bottom: 3px solid var(--border-form);
+}
+.tool-list {
+  position: fixed;
+  width: 812px;
+  height: 76px;
+  top: 234px;
+  right: 0;
+  background-color: var(--tool-list);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tool {
+  opacity: 0.5;
+}
+.tool:hover {
+  opacity: 1;
+}
+.main-wrapper {
+  background-color: var(--main-back);
+  max-width: 1060px;
+  margin: 149px auto;
+  padding-left: 67px;
+}
+.main {
+  border-left: 2px solid var(--main-text-left-border);
+  padding-left: 58px;
+  padding-top: 202px;
+  background-color: var(--main-back);
+  min-height: 800px;
+}
+.main__aut-date {
+  display: block;
+  color: var(--main__aut-date);
+  font-family: "proxima_novaregular";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+  margin-bottom: 47px;
+}
+.main__title {
+  color: var(--main__title);
+  font-family: FuturaPT-Heavy;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 1px;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  margin-bottom: 21px;
+}
+.main__under-title {
+  color: var(--main__under-title);
+  font-family: Georgia;
+  font-size: 30px;
+  line-height: 62.44px;
+  margin-bottom: 55px;
+}
+.main__text {
+  max-width: 806px;
+  color: var(--main-text);
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40.38px;
+  font-family: Georgia;
+  margin-bottom: 39px;
+}
+.italic {
+  font-family: Georgia;
+  font-style: italic;
+}
