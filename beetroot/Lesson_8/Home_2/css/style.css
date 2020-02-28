@@ -71,7 +71,7 @@ body {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-.list__item:nth-child(1) .over__title {
+.list__item:nth-child(1) .list__title-over {
   position: absolute;
   bottom: 123px;
   left: 46px;
@@ -86,7 +86,7 @@ body {
   padding-left: 28px;
   letter-spacing: 0.55px;
 }
-.list__item:nth-child(1) .item_title {
+.list__item:nth-child(1) .list__title {
   position: absolute;
   font-size: 42px;
   font-weight: 400;
