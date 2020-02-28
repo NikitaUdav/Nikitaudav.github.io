@@ -1,4 +1,4 @@
-# Beetroot Front-end
+# :mortar_board: Beetroot Front-end :mortar_board:
 ###### :heavy_check_mark: Lesson 1
    * [Homework 1](https://Nikitaudav.github.io/beetroot/Lesson_1/index.html)
 ###### :heavy_check_mark: Lesson 2
