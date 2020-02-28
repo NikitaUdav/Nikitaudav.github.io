@@ -21,3 +21,9 @@
 #### :heavy_check_mark: Lesson 8
   * [Homework 8.1](https://Nikitaudav.github.io/beetroot/Lesson_8/Home_1)
   * [Homework 8.2](https://Nikitaudav.github.io/beetroot/Lesson_8/Home_2)
+#### :heavy_check_mark: Lesson 9
+  * [Homework 9.1](https://Nikitaudav.github.io/beetroot/Lesson_9/Home_1)
+  * [Homework 9.2](https://Nikitaudav.github.io/beetroot/Lesson_9/Home_2)
+#### :heavy_check_mark: Lesson 10
+  * [Homework 10.1](https://Nikitaudav.github.io/beetroot/Lesson_10/Home_1)
+  
