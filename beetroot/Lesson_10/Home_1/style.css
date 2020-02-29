@@ -14,15 +14,19 @@
 .body {
   width: 100%;
   height: 100%;
-
   background-color: var(--main-color);
   color: var(--text-color);
 }
-
+.main {
+  padding-top: 90px;
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1170px;
+}
 .title {
   display: inline-block;
   margin: 0 auto;
-
   font-size: 90px;
   font-weight: 700;
   line-height: 1;
@@ -35,23 +39,15 @@
   line-height: 1.5;
   text-align: center;
   max-width: 600px;
-  margin-bottom: 47px;
+  margin-bottom: 44px;
 }
-.main {
-  padding-top: 100px;
-  flex-direction: column;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1170px;
-}
+
 .list {
   list-style: none;
   display: flex;
   flex-direction: row;
-
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 50px;
 }
 .list__item {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -107,7 +103,7 @@
 .gradient {
   bottom: 0;
   width: 370px;
-  height: 55%;
+  height: 45%;
   z-index: 2;
   background-image: linear-gradient(
     to top,
@@ -123,7 +119,7 @@
   bottom: 17px;
   left: 23px;
   height: 89px;
-  width: 307px;
+  width: 350px;
   font-family: Raleway;
   line-height: 25px;
 }
@@ -147,7 +143,7 @@
 }
 .link {
   color: var(--text-color);
-  padding-top: 17px;
+  padding-top: 16px;
   display: inline-block;
   width: 200px;
   height: 55px;
