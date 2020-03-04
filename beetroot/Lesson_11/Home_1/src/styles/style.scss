@@ -16,10 +16,40 @@
   min-height: 1088px;
   min-width: 1500px;
   padding-left: 160px;
-}
-
-.header {
-  display: flex;
+  &__link-wrapper {
+    margin-left: 4px;
+    padding-top: 18px;
+    text-align: center;
+    display: inline-block;
+    height: 55px;
+    width: 200px;
+    background-color: var(--link);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  &__link-wrapper:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3.5);
+  }
+  &__title {
+    color: var(--main-text);
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 19px;
+  }
+  &__text {
+    color: var(--main-text);
+    font-size: 17px;
+    padding-left: 5px;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 400px;
+    margin-bottom: 27px;
+  }
+  &__header {
+    display: flex;
+    padding-top: 17px;
+    margin-bottom: 233px;
+  }
 }
 .logo {
   padding-top: 16px;
@@ -57,41 +87,7 @@
   border-color: var(--nav-border);
 }
 
-.header-position {
-  padding-top: 17px;
-  margin-bottom: 233px;
-}
-
-.title-1 {
-  color: var(--main-text);
-  font-size: 60px;
-  font-weight: 900;
-  line-height: 1;
-  margin-bottom: 19px;
-}
-.text-1 {
-  color: var(--main-text);
-  font-size: 17px;
-  padding-left: 5px;
-  font-weight: 300;
-  line-height: 1.6;
-  max-width: 400px;
-  margin-bottom: 27px;
-}
-.link-wrapper-1 {
-  margin-left: 4px;
-  padding-top: 18px;
-  text-align: center;
-  display: inline-block;
-  height: 55px;
-  width: 200px;
-  background-color: var(--link);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-.link-wrapper-1:hover {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 3.5);
-}
-.link-get-1 {
+.link-get {
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
@@ -100,6 +96,7 @@
   color: var(--link-text);
 }
 .section-2 {
+  position: relative;
   display: flex;
   flex-direction: row;
   margin-top: -88px;
@@ -125,8 +122,11 @@
   &__text:not(:last-child) {
     margin-bottom: 10px;
   }
-}
-.section-2__article {
-  padding-top: 131px;
-  padding-left: 73px;
+  &__img-wrapper-2 {
+    margin-right: 94px;
+  }
+  &__article {
+    padding-top: 131px;
+    padding-left: 73px;
+  }
 }
