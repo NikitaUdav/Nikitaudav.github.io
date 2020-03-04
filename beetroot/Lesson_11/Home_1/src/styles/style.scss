@@ -1,14 +1,23 @@
 @import "./core/vars";
 @import "./core/common";
+@import "./components/navigation";
 @import "./components/logo";
 @import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,900&display=swap");
 
-.section-1 {
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-bottom: 233px;
+}
+.section {
+  width: 100%;
   position: relative;
   z-index: 1;
-  min-height: 1088px;
-  min-width: 1500px;
-  padding-left: 160px;
+  height: 1288px;
+  min-width: 640px;
+  max-width: 1500px;
+  margin: 0 auto;
   &__link-wrapper {
     margin-left: 4px;
     padding-top: 18px;
@@ -38,39 +47,10 @@
     max-width: 400px;
     margin-bottom: 27px;
   }
-  &__header {
-    display: flex;
-    padding-top: 17px;
-    margin-bottom: 233px;
+  &__main {
+    padding-left: 160px;
   }
 }
-
-.navigation {
-  padding-top: 41.5px;
-  display: inline-block;
-  flex-direction: row;
-  color: $nav-text;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 25px;
-  text-transform: uppercase;
-  &__item {
-    padding: 1px;
-    border-top: 3px solid transparent;
-    display: inline-block;
-  }
-  &__item:not(:last-child) {
-    margin-right: 31.7px;
-  }
-}
-.nav-text {
-  text-decoration: none;
-  color: $nav-text;
-}
-.navigation__item:hover {
-  border-color: $nav-border;
-}
-
 .link-get {
   text-decoration: none;
   font-size: 20px;
@@ -79,38 +59,25 @@
   text-transform: uppercase;
   color: $link-text;
 }
-.section-2 {
-  position: relative;
+.section-about {
   display: flex;
   flex-direction: row;
-  margin-top: -88px;
   padding-top: 37px;
   padding-left: 115px;
-  position: relative;
-  z-index: 1;
   min-height: 700px;
   min-width: 1500px;
-  color: $text;
-  &__title {
+
+  &__title-about {
     font-size: 90px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 17px;
+    color: $text;
   }
-  &__text {
-    font-size: 17px;
-    font-weight: 300;
-    line-height: 1.6;
-    max-width: 500px;
-  }
-  &__text:not(:last-child) {
+  &__text-about:not(:last-child) {
     margin-bottom: 10px;
   }
-  &__img-wrapper-2 {
+  &__img-wrapper {
     margin-right: 94px;
-  }
-  &__article {
-    padding-top: 131px;
-    padding-left: 73px;
   }
 }
