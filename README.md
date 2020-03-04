@@ -11,7 +11,7 @@
   * [Homework 4.1](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_1)
   * [Homework 4.2](https://Nikitaudav.github.io/beetroot/Lesson_4/HomeWork_4_2)
 #### Lesson 5
-* [Homework 5.1](https://Nikitaudav.github.io/beetroot/Lesson_5)
+  * [Homework 5.1](https://Nikitaudav.github.io/beetroot/Lesson_5)
 #### Lesson 6
   * [Homework 6.1](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_1)
   * [Homework 6.2](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_2/index.html)
