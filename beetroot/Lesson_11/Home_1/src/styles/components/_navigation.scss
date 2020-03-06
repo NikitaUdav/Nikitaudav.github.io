@@ -3,7 +3,9 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  min-width: 36%;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 49%;
   color: $nav-text;
   font-size: 16px;
   font-weight: 700;

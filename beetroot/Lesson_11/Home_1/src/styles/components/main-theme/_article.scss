@@ -1,13 +1,11 @@
-.main {
-  &__title-main-theme {
-    color: $main-text;
+.article {
+  &__title--main-theme {
     font-size: 60px;
     font-weight: 900;
     line-height: 1;
     margin-bottom: 19px;
   }
-  &__text-main-theme {
-    color: $main-text;
+  &__text--main-theme {
     font-size: 17px;
     padding-left: 5px;
     font-weight: 300;
@@ -15,7 +13,9 @@
     max-width: 400px;
     margin-bottom: 27px;
   }
-  &-main-theme {
-    padding-left: 160px;
-  }
+}
+.article--main-theme {
+  margin: 0 auto;
+  max-width: 1180px;
+  color: $main-text;
 }
