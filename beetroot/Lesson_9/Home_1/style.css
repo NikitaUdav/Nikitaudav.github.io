@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   letter-spacing: -0.21px;
 }
-.main-article__f-letter {
+.article-main__f-letter {
   float: left;
   margin-right: 25px;
   font-family: "Playfair Display";
@@ -43,7 +43,7 @@ body {
   text-transform: uppercase;
   letter-spacing: -0.55px;
 }
-.text {
+.article-main__text {
   text-align: left;
   max-width: 1030px;
   opacity: 0.7;
@@ -53,13 +53,13 @@ body {
   font-weight: 300;
   line-height: 2;
 }
-.text:not(:last-of-type) {
+.article-main__text:not(:last-of-type) {
   margin-bottom: 56px;
 }
-.text:last-of-type {
+.article-main__text:last-of-type {
   margin-bottom: 25px;
 }
-.text__after-text {
+.article-main__text--after-text {
   display: inline-block;
 }
 .quote-wrapper::before {
@@ -85,7 +85,7 @@ body {
   line-height: 34px;
   margin-bottom: 39px;
 }
-.link-wrapper {
+.link__wrapper {
   display: inline-block;
   border: 2px solid var(--link-color);
   height: 68px;

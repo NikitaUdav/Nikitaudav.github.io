@@ -1,0 +1,26 @@
+.section--blog-theme {
+  padding-top: 87px;
+  flex-direction: column;
+  display: flex;
+  background-color: $blog-color;
+  color: $text;
+}
+.section {
+  &__title--blog-theme {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+  }
+  &__subtitle--blog-theme {
+    margin: 0 auto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 44px;
+  }
+}

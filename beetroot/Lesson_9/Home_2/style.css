@@ -35,7 +35,7 @@ body {
   padding-left: 63px;
   padding-top: 50px;
 }
-.name-input {
+.form__input {
   display: block;
   color: var(--name-input);
   font-family: "proxima_novaregular";
@@ -45,7 +45,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 4.8px;
 }
-.input-title {
+.form__label {
   font-family: "Playfair Display";
   width: 100%;
   font-size: 48px;

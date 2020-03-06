@@ -1,16 +1,21 @@
 .link {
   &__wrapper--main-theme {
     margin-left: 4px;
-    padding-top: 18px;
     text-align: center;
     display: inline-block;
     height: 55px;
     width: 200px;
     background-color: $link;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    &:hover {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 3.5);
+    }
   }
 }
 .link--main-theme {
+  padding-top: 18px;
+  display: block;
+  height: 100%;
   text-decoration: none;
   font-size: 20px;
   font-weight: 300;
