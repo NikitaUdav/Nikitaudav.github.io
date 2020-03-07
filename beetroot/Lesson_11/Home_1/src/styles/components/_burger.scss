@@ -1,0 +1,48 @@
+$style: burger;
+.#{$style} {
+  position: relative;
+  display: block;
+  &__input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+    &:checked + .#{$style}__box {
+      align-items: center;
+      .#{$style}__item:nth-child(1) {
+        width: 30%;
+      }
+      .#{$style}__item:nth-child(2) {
+        width: 50%;
+      }
+      .#{$style}__item:nth-child(3) {
+        width: 90%;
+      }
+    }
+    &:checked ~ .burger__menu {
+      //visibility: visible;
+    }
+  }
+  &__menu {
+    //   visibility: hidden;
+  }
+
+  &__box {
+    width: 42px;
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: stretch;
+    // @media screen and (min-width: $laptop-size) {
+    //    display: none;
+    //  }
+  }
+
+  &__item {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: $main-text;
+  }
+}

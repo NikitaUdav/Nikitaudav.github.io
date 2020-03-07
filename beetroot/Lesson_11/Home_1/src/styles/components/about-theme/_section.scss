@@ -1,8 +1,33 @@
-.section--about-theme {
+.section-about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 37px;
   min-height: 700px;
   margin-top: -90px;
+  &__img-wrapper {
+    max-width: 500px;
+  }
+  &__title {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 17px;
+  }
+  &__text {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.6;
+    max-width: 500px;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__article {
+    padding-top: 130px;
+    padding-right: 60px;
+    max-width: 550px;
+    color: $text;
+  }
 }

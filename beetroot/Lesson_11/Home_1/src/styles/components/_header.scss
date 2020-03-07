@@ -1,0 +1,14 @@
+.header-main {
+  position: fixed;
+  background-color: rgba($link-text, 0.9);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  padding-top: 30px;
+  max-width: 1200px;
+}
+&__container {
+  height: 110px;
+  @include flex(space-between, center);
+}
