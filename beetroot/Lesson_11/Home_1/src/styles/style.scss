@@ -4,18 +4,14 @@
 @import "./core/vars";
 @import "./core/common";
 @import "./components/section";
-@import "./components/header-nav";
-@import "./components/link-button";
 @import "./components/navigation";
 @import "./components/logo";
-@import "./components/container-content";
+@import "./components/burger";
 
 // Моды main
-@import "./components/main-theme/article";
-@import "./components/main-theme/link-button";
-@import "./components/main-theme/section";
+@import "./components/main/article";
+@import "./components/main/section";
 
 // Моды about
-@import "./components/about-theme/article";
-@import "./components/about-theme/img__wrapper";
-@import "./components/about-theme/section";
+@import "./components/about/article";
+@import "./components/about/section";

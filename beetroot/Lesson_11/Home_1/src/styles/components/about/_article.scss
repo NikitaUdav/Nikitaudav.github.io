@@ -1,11 +1,15 @@
-.article {
-  &__title--about-theme {
+.article-about {
+  padding-top: 130px;
+  padding-right: 60px;
+  max-width: 550px;
+  color: $text;
+  &__title {
     font-size: 90px;
     font-weight: 700;
     line-height: 1;
     margin-bottom: 17px;
   }
-  &__text--about-theme {
+  &__text {
     font-size: 17px;
     font-weight: 300;
     line-height: 1.6;
@@ -14,11 +18,7 @@
       margin-bottom: 10px;
     }
   }
-}
-
-.article--about-theme {
-  padding-top: 130px;
-  padding-right: 60px;
-  max-width: 550px;
-  color: $text;
+  @media screen and(max-width:760px) {
+    order: -1;
+  }
 }
