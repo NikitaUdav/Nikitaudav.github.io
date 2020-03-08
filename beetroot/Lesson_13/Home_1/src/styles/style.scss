@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,900&display=swap"); // Шрифты
+
+// Основные блоки
+@import "./core/vars";
+@import "./core/common";
+@import "./components/section";
+
+//Mods our services
+@import "./components/our_services/section";
+@import "./components/our_services/article";
