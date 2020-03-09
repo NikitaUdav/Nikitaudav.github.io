@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $nav-text;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+
+  &__item {
+    padding: 1px;
+    border-top: 3px solid transparent;
+
+    &:hover {
+      border-color: $nav-border;
+    }
+    &:not(:last-of-type) {
+      margin-right: 30px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: $nav-text;
+  }
+}
