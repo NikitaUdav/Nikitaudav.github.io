@@ -7,87 +7,86 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="section section-main">
-      <img class="back-img" src="./images/milk.png" alt="milk" />
-      <header class="header section-main__header">
-        <h1 class="logo">Cahee</h1>
-        <label class="section-main__burger burger">
-          <ul class="section-main__list navigation">
-            <li class="navigation__item">
-              <a href="#home" name="home" class="navigation__link">home</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#about" class="navigation__link">about</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#services" class="navigation__link">services</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#gallery" class="navigation__link">gallery</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#blog" class="navigation__link">blog</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#contact" class="navigation__link">contact</a>
-            </li>
-          </ul>
-        </label>
-      </header>
-      <article class="section-main__article article-main">
-        <h2 class="article-main__title ">Fresh Life</h2>
-        <p class="article-main__text ">
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nostrud exercitation ullamco.
-        </p>
-        <div class="link-wrapper section-main__link-wrapper">
-          <a
-            class="section-main__link link "
-            href="https://www.dobrodar.com.ua/uploads/files/Articles/Article_images_31/3303a2.jpg"
-            >Get free now</a
-          >
+    <header id="home" class="header">
+      <nav class="navigation">
+        <div class="container navigation__container">
+          <h1 class="logo navigation__logo">Cahee</h1>
+          <label class="burger navigation__burger">
+            <input class="burger__input" type="checkbox" />
+            <span class="burger__box">
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+              <span class="burger__item"></span>
+            </span>
+            <span class="navigation__list burger__menu">
+              <span class="navigation__item">
+                <a class="navigation__link" href="#home">Home</a>
+              </span>
+              <span class="navigation__item">
+                <a class="navigation__link" href="#about">About</a>
+              </span>
+              <span class="navigation__item">
+                <a class="navigation__link" href="#services">Services</a>
+              </span>
+              <span class="navigation__item">
+                <a class="navigation__link" href="#gallery">Gallery</a>
+              </span>
+              <span class="navigation__item">
+                <a class="navigation__link" href="#blog">Block</a>
+              </span>
+              <span class="navigation__item">
+                <a class="navigation__link" href="#contact">Contact</a>
+              </span>
+            </span>
+          </label>
         </div>
-      </article>
-    </section>
-    <section class="section section-about">
-      <div class="section-about__container">
+      </nav>
+      <div class="container header__container">
+        <section class="header__content">
+          <h2 class="header__title">Fresh life</h2>
+          <p class="header__text">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+          <a class="button" href="#">Get free now</a>
+        </section>
+        <a href="#about" class="scroll header__scroll"></a>
+      </div>
+    </header>
+
+    <section class="section section-about" id="about">
+      <div class="section-about__container container">
         <div class="section-about__container-content">
           <div class="img__wrapper section-about__img-wrapper">
             <img class="img" src="./images/cup.png" alt="strawberry" />
           </div>
         </div>
         <article class="section-about__article article-about">
-          <h2 class="article-about__title">
-            <a href="#2" name="about"></a> About Us
+          <h2 class="article-about__title" id="about">
+            About Us
           </h2>
           <p class="article-about__text">
             Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum.
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum.
           </p>
           <p class="article-about__text">
-            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
-            sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore.
+            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+            ipsa quae ab illo inventore.
           </p>
         </article>
       </div>
     </section>
     <section class="section section-services">
-      <article class="section-services__article article-services">
+      <article id="services" class="section-services__article article-services">
         <ul class="article-services__list ">
           <li class="list__item card">
             <div class="card__text-wrapper">
               <span class="card__text">Online Shopping</span>
             </div>
             <div class="card__icon-wrapper">
-              <svg
-                class="card__icon"
-                width="47"
-                height="44"
-                viewBox="0 0 47 44"
-              >
+              <svg class="card__icon" width="47" height="44" viewBox="0 0 47 44">
                 <g>
                   <g>
                     <path
@@ -103,12 +102,7 @@
               <span class="card__text">Quality Product</span>
             </div>
             <div class="card__icon-wrapper">
-              <svg
-                class="card__icon"
-                width="55"
-                height="49"
-                viewBox="0 0 55 49"
-              >
+              <svg class="card__icon" width="55" height="49" viewBox="0 0 55 49">
                 <g>
                   <g>
                     <path
@@ -124,12 +118,7 @@
               <span class="card__text">Domestic & International Delivery</span>
             </div>
             <div class="card__icon-wrapper">
-              <svg
-                class="card__icon"
-                width="54"
-                height="54"
-                viewBox="0 0 54 54"
-              >
+              <svg class="card__icon" width="54" height="54" viewBox="0 0 54 54">
                 <g>
                   <g>
                     <path
@@ -173,7 +162,7 @@
     </section>
     <section class=" section section-sub">
       <img class="back-img" src="./images/bg-sub.png" alt="img-bg" />
-      <article class=" section-sub__article article-sub">
+      <article id="sub" class=" section-sub__article article-sub">
         <h2 class="section-sub__title">Subscribe To Us</h2>
         <p class="section-sub__text">
           Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -196,13 +185,13 @@
       <h1 class="section__title section-blog__title">Blog</h1>
       <p class="section__text section-blog__subtitle">
         Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit.
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit.
       </p>
       <ul class="section__list list-card">
         <li class="list-card__item card-blog">
           <div class="card__img-wrapper">
-            <img src="./images/kivi.png" alt="kivi" class="card__img" />
+            <img src="./images/kivi.png" alt="kivi" class="card__img img" />
           </div>
           <div class="card-blog__date-box">
             <span class="card-blog__date-day">20</span>
@@ -220,7 +209,7 @@
         </li>
         <li class="list-card__item card-blog">
           <div class="card-blog__img-wrapper">
-            <img src="./images/peas.png" alt="peas" class="card-blog__img" />
+            <img src="./images/peas.png" alt="peas" class="card-blog__img img" />
           </div>
           <div class="card-blog__date-box">
             <h3 class="card-blog__date-day">14</h3>
@@ -241,7 +230,7 @@
             <img
               src="./images/raspberries.png"
               alt="raspberries"
-              class="card-blog__img"
+              class="card-blog__img img"
             />
           </div>
           <div class="card-blog__date-box">
@@ -265,47 +254,47 @@
     </section>
     <section class="section section-7">
       <img class="back-img" src="./images/back-7.png" alt="back-7" />
-      <header class="section-7__header">
-        <h1 class="section-7__title">Contact</h1>
-        <p class="section-7__under-title-text">
-          For new projects, ideas, business or anything you'd like to discuss,
-          contact with me!
-        </p>
-      </header>
-      <div class="section-7__main">
-        <form class="contact-form" action="#">
-          <input
-            class="contact-form__item"
-            type="text"
-            placeholder="Your Name..."
-          />
-          <input
-            class="contact-form__item"
-            type="email"
-            placeholder="Your email..."
-          />
-          <input
-            class="contact-form__item"
-            type="tel"
-            placeholder="Your phone number..."
-          />
-          <textarea
-            cols="40"
-            rows="3"
-            class="contact-form__item contact-form__item-message"
-            placeholder="Your message..."
-          ></textarea>
-        </form>
-        <article class="contact">
-          <h3 class="contact__title">address</h3>
-          <span class=" contact__text"
-            >123 City Name, Street, City, Country</span
-          >
-          <h3 class="contact__title">email</h3>
-          <span class=" contact__text">cahee@domain.com</span>
-          <h3 class="contact__title">phone</h3>
-          <span class=" contact__text">+012 345 6789</span>
-        </article>
+      <div class="container-section-7">
+        <header id="contact" class="section-7__header">
+          <h1 class="section-7__title">Contact</h1>
+          <p class="section-7__under-title-text">
+            For new projects, ideas, business or anything you'd like to discuss,
+            contact with me!
+          </p>
+        </header>
+        <div class="section-7__main">
+          <form class="contact-form" action="#">
+            <input
+              class="contact-form__item"
+              type="text"
+              placeholder="Your Name..."
+            />
+            <input
+              class="contact-form__item"
+              type="email"
+              placeholder="Your email..."
+            />
+            <input
+              class="contact-form__item"
+              type="tel"
+              placeholder="Your phone number..."
+            />
+            <textarea
+              cols="40"
+              rows="3"
+              class="contact-form__item contact-form__item-message"
+              placeholder="Your message..."
+            ></textarea>
+          </form>
+          <article class="contact">
+            <h3 class="contact__title">address</h3>
+            <span class=" contact__text">123 City Name, Street, City, Country</span>
+            <h3 class="contact__title">email</h3>
+            <span class=" contact__text">cahee@domain.com</span>
+            <h3 class="contact__title">phone</h3>
+            <span class=" contact__text">+012 345 6789</span>
+          </article>
+        </div>
       </div>
     </section>
     <footer class="footer">

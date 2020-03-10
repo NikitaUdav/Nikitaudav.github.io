@@ -3,7 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 27px;
+  text-align: center;
+  @media screen and (min-width: $screen-tablet) {
+    text-align: start;
+    padding-left: 27px;
+  }
 
   &__article {
     min-height: 290px;
@@ -17,10 +21,12 @@
     margin-bottom: 15px;
   }
   &__text {
-    max-width: 550px;
     line-height: 1.6;
     font-size: 17px;
     font-weight: 300;
     margin-bottom: 28px;
+    @media screen and (min-width: $screen-tablet) {
+      max-width: 550px;
+    }
   }
 }

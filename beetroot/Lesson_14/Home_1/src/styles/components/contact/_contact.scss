@@ -1,16 +1,11 @@
-@import "./core/common";
-:root {
-  --form: #00c4c4;
-  --form-text: #ffffff;
-  --form-border: #355b82;
-  --section-7-text: #262626;
-  --footer: #262626;
-  --footer-logo: #b9b9b9;
+.container-section-7 {
+  width: 100%;
+  max-width: 1200px;
 }
 .section-7 {
   position: relative;
   margin: 0 auto;
-  height: 866px;
+  min-height: 866px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +19,7 @@
     margin-bottom: 22px;
   }
   &__under-title-text {
+    margin: 0 auto;
     font-size: 17px;
     font-weight: 300;
     line-height: 1.5;
@@ -33,8 +29,13 @@
   &__main {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: $screen-tablet) {
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: stretch;
+    }
   }
 }
 .contact-form {
@@ -46,20 +47,20 @@
     padding-left: 15px;
     height: 50px;
     margin-bottom: 15px;
-    background-color: var(--form);
+    background-color: $contact-bg-color;
     border: none;
     border-left: 5px solid transparent;
     opacity: 0.5;
-    color: var(--form-text);
+    color: $white;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.3;
   }
   &__item::placeholder {
-    color: var(--form-text);
+    color: $white;
   }
   &__item:focus {
-    border-color: var(--form-border);
+    border-color: $contact-border-color;
     opacity: 1;
     outline: none;
   }
@@ -67,30 +68,48 @@
     padding-top: 20px;
     height: 250px;
     resize: none;
+    font-family: $base-font;
   }
 }
 .contact {
+  order: -1;
+  text-align: center;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.3;
-  width: 500px;
-
+  max-width: 500px;
+  margin-bottom: 35px;
+  @media screen and (min-width: $screen-tablet) {
+    order: 0;
+    margin-bottom: 0;
+    text-align: start;
+  }
   &__title {
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    @media screen and (min-width: $screen-tablet) {
+      margin-bottom: 0;
+      padding-top: 0;
+    }
   }
 }
 .footer {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-around;
   align-items: center;
   height: 90px;
   width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  background-color: var(--footer);
-  color: var(--footer-logo);
+  background-color: $dark;
+  color: $footer-logo;
+  @media screen and (min-width: $screen-tablet) {
+    flex-direction: row;
+    text-align: start;
+  }
   &__logo {
     font-family: Pacifico;
     font-size: 25px;

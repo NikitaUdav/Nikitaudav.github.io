@@ -2,8 +2,8 @@
   padding-top: 87px;
   flex-direction: column;
   display: flex;
-  background-color: $blog-color;
-  color: $text;
+  background-color: $blog-bg-color;
+  color: $white;
   min-height: 700px;
   &__title {
     display: inline-block;
@@ -28,12 +28,12 @@
     height: 55px;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: $link-back-blog;
+    background-color: $blog-btn-color;
     text-align: center;
     margin-bottom: 120px;
   }
   &__link {
-    color: $text;
+    color: $white;
     padding-top: 16px;
     display: inline-block;
     width: 200px;

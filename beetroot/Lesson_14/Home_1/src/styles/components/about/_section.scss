@@ -1,29 +1,23 @@
 .section-about {
-  background-color: $about-section;
-  flex-direction: row;
-  padding-top: 38px;
-  margin-top: -90px;
-  min-height: 700px;
+  background-color: $about-bg-color;
+  padding-top: 37px;
+
   &__container {
-    display: flex;
-    justify-content: space-between;
+    @include flex(center, stretch, row, wrap);
     height: 100%;
-    max-width: 1270px;
+    max-width: 1235px;
     margin: 0 auto;
-    @media screen and(min-width:760px) {
-      flex-wrap: wrap;
+
+    @media screen and(min-width:$screen-tablet) {
+      @include flex(space-between);
     }
   }
   &__container-content {
-    display: flex;
-    justify-content: center;
+    @include flex(center);
     width: 646px;
   }
   &__img-wrapper {
     width: 100%;
-    position: relative;
-    display: inline-block;
-    max-width: 646px;
-    max-height: 640px;
+    object-fit: contain;
   }
 }
