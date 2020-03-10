@@ -102,6 +102,7 @@
     text-align: start;
   }
   &__title {
+    display: block;
     text-transform: uppercase;
     font-size: 17px;
     font-weight: 700;
@@ -113,7 +114,9 @@
     }
   }
   &__text {
-    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
   }
 }
 .footer {
