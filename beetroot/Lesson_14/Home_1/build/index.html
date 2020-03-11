@@ -53,8 +53,7 @@
         <a href="#about" class="scroll header__scroll"></a>
       </div>
     </header>
-
-    <section class="section section-about" id="about">
+    <section id="about" class="section section-about">
       <div class="section-about__container container">
         <div class="section-about__container-content">
           <div class="img__wrapper section-about__img-wrapper">
@@ -62,7 +61,7 @@
           </div>
         </div>
         <article class="section-about__article article-about">
-          <h2 class="article-about__title" id="about">
+          <h2 class="article-about__title">
             About Us
           </h2>
           <p class="article-about__text">
@@ -78,8 +77,8 @@
         </article>
       </div>
     </section>
-    <section class="section section-services">
-      <article id="services" class="section-services__article article-services">
+    <section id="services" class="section section-services">
+      <article class="section-services__article article-services">
         <ul class="article-services__list ">
           <li class="list__item card">
             <div class="card__text-wrapper">
@@ -160,9 +159,43 @@
         </div>
       </article>
     </section>
-    <section class=" section section-sub">
+    <section id="gallery" class="section section-galery">
+      <div class="container section-galery__container">
+        <h2 class="section-galery__title">Gallery</h2>
+        <p class="section-galery__subtitle">
+          Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="section-galery__galery grid">
+          <div class="grid__row">
+            <div class="grid__col col-70">
+              <img class="img" src="./images/peach.png" alt="peach" />
+            </div>
+            <div class="grid__col col-30">
+              <div class="grid__row">
+                <img class="img" src="./images/currant.png" alt="currant" />
+              </div>
+              <div class="grid__row">
+                <img class="img" src="./images/blackberry.png" alt="currant" />
+              </div>
+            </div>
+          </div>
+          <div class="grid__row">
+            <div class="grid__col col-50">
+              <img class="img" src="./images/milk-currant.png" alt="milk-currant" />
+            </div>
+            <div class="grid__col col-50">
+              <img class="img" src="./images/persimmon.png" alt="persimmon" />
+            </div>
+          </div>
+        </div>
+        <a class="button section-galery__button" href="#">VIEW MORE</a>
+      </div>
+    </section>
+    <section id="sub" class=" section section-sub">
       <img class="back-img" src="./images/bg-sub.png" alt="img-bg" />
-      <article id="sub" class=" section-sub__article article-sub">
+      <article class=" section-sub__article article-sub">
         <h2 class="section-sub__title">Subscribe To Us</h2>
         <p class="section-sub__text">
           Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -177,11 +210,11 @@
               placeholder="Your email address..."
             />
           </label>
-          <button class="form-sub__button" type="submit">SUBSCRIBE</button>
+          <button class="button form-sub__button" type="submit">SUBSCRIBE</button>
         </form>
       </article>
     </section>
-    <section class="section section-blog">
+    <section id="blog" class="section section-blog">
       <h1 class="section__title section-blog__title">Blog</h1>
       <p class="section__text section-blog__subtitle">
         Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -252,41 +285,48 @@
         <a href="#" class="link section-blog__link">VIEW MORE</a>
       </div>
     </section>
-    <section class="section section-7">
+    <section id="contact" class="section section-contact">
       <img class="back-img" src="./images/back-7.png" alt="back-7" />
-      <div class="container-section-7">
-        <header id="contact" class="section-7__header">
-          <h1 class="section-7__title">Contact</h1>
-          <p class="section-7__under-title-text">
+      <div class="section-contact__container">
+        <header class="section-contact__header">
+          <h1 class="section-contact__title">Contact</h1>
+          <p class="section-contact__subtitle">
             For new projects, ideas, business or anything you'd like to discuss,
             contact with me!
           </p>
         </header>
-        <div class="section-7__main">
+        <div class="section-contact__main">
           <form class="contact-form" action="#">
             <input
               class="contact-form__item"
               type="text"
               id="name"
               placeholder="Your Name..."
+              required
             />
+      
             <input
               class="contact-form__item"
               id="email"
               type="email"
               placeholder="Your email..."
+              required
             />
             <input
               class="contact-form__item"
               id="phone"
               type="tel"
               placeholder="Your phone number..."
+              minlength="18"
+              maxlength="18"
+              required
             />
             <textarea
               cols="40"
               rows="3"
               class="contact-form__item contact-form__item-message"
               placeholder="Your message..."
+              required
             ></textarea>
           </form>
           <article class="contact">
@@ -301,10 +341,10 @@
       </div>
     </section>
     <footer class="footer">
-      <span class="copyright">© 2015 Company. All right reserved.</span>
+      <span class="footer__text">© 2015 Company. All right reserved.</span>
       <span class="footer__logo"> Cahee</span>
-      <span class="Made"
-        >Made with <span class="Made__text">love</span> by Auskteez</span
+      <span class="footer__text"
+        >Made with <span class="text-red">love</span> by Auskteez</span
       >
     </footer>
   </body>

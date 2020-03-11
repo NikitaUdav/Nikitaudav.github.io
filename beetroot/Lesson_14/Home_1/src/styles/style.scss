@@ -12,14 +12,12 @@
 @import "./components/logo";
 @import "./components/navigation";
 @import "./components/header";
-//Mods main
-
 //Mods about
-@import "./components/about/article";
 @import "./components/about/section";
 //Mods our services
 @import "./components/our_services/section";
-@import "./components/our_services/article";
+// Mods galery
+@import "./components/galery/section-galery";
 //Mods sub
 @import "./components/sub/section-sub";
 //Mods blog

@@ -24,13 +24,16 @@
   }
   &__link-wrapper {
     margin: 0 auto;
-    width: 200px;
+    width: 630px;
     height: 55px;
     display: inline-block;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     background-color: $blog-btn-color;
     text-align: center;
     margin-bottom: 120px;
+    @media screen and (min-width: $screen-tablet) {
+      max-width: 200px;
+    }
   }
   &__link {
     color: $white;

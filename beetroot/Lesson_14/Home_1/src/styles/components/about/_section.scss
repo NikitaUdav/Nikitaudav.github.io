@@ -21,3 +21,28 @@
     object-fit: contain;
   }
 }
+.article-about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 130px;
+
+  &__title {
+    @include text($H900, 700, $white);
+    line-height: 1.1;
+    margin-bottom: 11px;
+  }
+  &__text {
+    width: 100%;
+    @include text($H200, 300, $white);
+    line-height: 1.6;
+    max-width: 500px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  @media screen and(max-width:$screen-tablet) {
+    text-align: center;
+    order: -1;
+  }
+}
