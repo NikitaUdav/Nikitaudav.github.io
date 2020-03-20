@@ -1,0 +1,51 @@
+// Natural colors
+$white: white;
+$grey-light: #b9b9b9;
+$grey: #9d9d9d;
+$dark: #262626;
+$not-active: #e1c2f1;
+$main-color: #fbf6e4;
+$second-color: #b9b9cc;
+
+// Bacground colors
+$border-color: #e66a64;
+
+// Button colors
+$submit-btn: #23ae92;
+
+// Text colors
+$text-main-color: #262626;
+$text-marked-color: #ff2b58;
+
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+$logo-fs: calcRem(50px);
+
+$H900: calcRem(90px);
+$H800: calcRem(60px);
+$H700: calcRem(40px);
+$H600: calcRem(32px);
+$H500: calcRem(25px);
+$H400: calcRem(21px);
+$H300: calcRem(20px);
+$H200: calcRem(19px);
+$H100: calcRem(18px);
+$H50: calcRem(16px);
+$H10: calcRem(13px);
+
+$base-font: "Quicksand";
+$logo-font: "Pacifico";
+
+$max-width: 1200px;
+
+$screen-iphone: 375px;
+$screen-iphone-plus: 414px;
+$screen-tablet: 768px;
+$screen-desktop: 1024px;
+$screen-desktop-large: 1280px;
+$screen-hd: 1366px;
+$screen-fullhd: 1440px;
+$screen-retina: 1660px;
