@@ -6,7 +6,7 @@ $dark: #262626;
 $not-active: #e1c2f1;
 $main-color: #fbf6e4;
 $second-color: #b9b9cc;
-
+$links-border-color: rgba(150, 193, 218, 0.15);
 // Bacground colors
 $border-color: #e66a64;
 
@@ -32,9 +32,10 @@ $H500: calcRem(25px);
 $H400: calcRem(21px);
 $H300: calcRem(20px);
 $H200: calcRem(19px);
-$H100: calcRem(18px);
+$H100: calcRem(17.7px);
 $H50: calcRem(16px);
 $H10: calcRem(13px);
+$H5: calcRem(11.5px);
 
 $base-font: "Quicksand";
 $logo-font: "Pacifico";
