@@ -28,5 +28,6 @@
   * [Homework 11.1](https://Nikitaudav.github.io/beetroot/Lesson_11/Home_1/build/index.html)
 #### Lesson 12
   * [Homework 12.1](https://Nikitaudav.github.io/beetroot/Lesson_12/Home_1/build/index.html)
+  
   #### Lesson 22
-  * [Homework 22](https://Nikitaudav.github.io/beetroot/Lesson_22/build/index.html)
+  * [Homework 22](https://Nikitaudav.github.io/beetroot/Lesson_22/build)
