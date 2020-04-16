@@ -1,6 +1,6 @@
 # :mortar_board: Beetroot Front-end :mortar_board:
 #### Lesson 1
-   * [Homework 1](https://Nikitaudav.github.io/beetroot/Lesson_1/index.html)
+   * [Homework 1](https://Nikitaudav.github.io/beetroot/Lesson_1/index.html) 
 #### Lesson 2
   * [Homework 2.1](https://Nikitaudav.github.io/beetroot/Lesson_2/Homework_2_List/index.html)
   * Homework 2.2
@@ -15,9 +15,7 @@
 #### Lesson 6
   * [Homework 6.1](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_1)
   * [Homework 6.2](https://Nikitaudav.github.io/beetroot/Lesson_6/Home_2/index.html)
-#### Lesson 7
-  * [Homework 7.1](https://Nikitaudav.github.io/beetroot/Lesson_7/Home_1)
-  * [Homework 7.2](https://Nikitaudav.github.io/beetroot/Lesson_7/Home_2)
+
 #### Lesson 8
   * [Homework 8.1](https://Nikitaudav.github.io/beetroot/Lesson_8/Home_1)
   * [Homework 8.2](https://Nikitaudav.github.io/beetroot/Lesson_8/Home_2)
@@ -30,3 +28,5 @@
   * [Homework 11.1](https://Nikitaudav.github.io/beetroot/Lesson_11/Home_1/build/index.html)
 #### Lesson 12
   * [Homework 12.1](https://Nikitaudav.github.io/beetroot/Lesson_12/Home_1/build/index.html)
+  #### Lesson 22
+  * [Homework 22](https://Nikitaudav.github.io/beetroot/Lesson_22/build/index.html)
