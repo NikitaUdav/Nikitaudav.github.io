@@ -1,10 +1,11 @@
 "use strict";
-const radius = prompt(`Введите радиус окружности для получения площади.`);
-if (isNaN(radius)) {
+const ear = prompt(`Укажите год для проверки высокосности.`);
+if (isNaN(ear)) {
   alert(`Биджо ты написал не число! Давай все сначала !`);
-} else if (radius <= 0) {
-  alert(`Биджо зачем ты написал 0 или меньше.`);
+} else if (ear == 0) {
+  alert(`Биджо зачем ты написал 0 ???`);
+} else if (ear % 4 === 0 || (ear % 400 === 0 && ear % 100 != 0)) {
+  alert(`Этот год ВИСОКОСНЫЙ`);
 } else {
-  let result = Math.PI * Math.pow(radius, 2);
-  alert(`Площадь окружности = ${result.toFixed(3)}`);
+  alert(`Этот год НЕ ВИСОКОСНЫЙ`);
 }

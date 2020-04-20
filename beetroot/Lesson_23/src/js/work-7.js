@@ -1,11 +1,19 @@
 "use strict";
-const file = 820;
-const size = prompt(`Сколько ГБ памяти у вас есть ?`);
-if (isNaN(size)) {
+const money = prompt(`Укажите суму покупки`);
+let result;
+if (isNaN(money)) {
   alert(`Биджо ты написал не число! Давай все сначала !`);
-} else if (size <= 0) {
-  alert(`Биджо зачем ты написал 0 или меньше.`);
 } else {
-  let result = Math.trunc((size * 1000) / file);
-  alert(`У вас получится записать ${result} файл(ов) !`);
+  if (money >= 200 && money <= 300) {
+    result = money - money * 0.03;
+    alert(`Ваша скидка 3% итого к оплате ${result}`);
+  } else if (money >= 300 && money <= 500) {
+    result = money - money * 0.05;
+    alert(`Ваша скидка 5% итого к оплате ${result}`);
+  } else if (money >= 700) {
+    result = money - money * 0.07;
+    alert(`Ваша скидка 7% итого к оплате ${result}`);
+  } else {
+    alert(`У вас нет скидки`);
+  }
 }
