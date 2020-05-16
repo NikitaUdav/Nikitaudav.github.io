@@ -34,3 +34,5 @@
 #### [Lesson 23](https://Nikitaudav.github.io/beetroot/Lesson_23/build)
 
 #### [Lesson 24](https://Nikitaudav.github.io/beetroot/Lesson_24/build) 
+
+#### [Lesson 29_Dom](https://Nikitaudav.github.io/beetroot/Lesson_Dom/dist) 
