@@ -3,24 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="/app.js"></script>
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Static Template</title>
   </head>
   <body>
     <h1>Для редактирования нажмите Ctrl+Alt, для сохранения Ctrl+Space</h1>
-    <div id="container">
+    <div id="container" class="block">
       <span style="font-size: 30px;" id="text">text-12121</span>
+      <textarea
+        style="
+          display: none;
+          font-size: 30px;
+          font-family: 'Times New Roman', Times, serif;
+        "
+        name="text2"
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
     </div>
-    <textarea
-      style="
-        display: none;
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif;
-      "
-      name="text2"
-      id=""
-      cols="30"
-      rows="10"
-    ></textarea>
+    <div id="app" class="container">
+      <ul class="container__item list">
+        <li class="list__item">
+          <button id="0" class="list__btn btn">sort</button>
+        </li>
+        <li class="list__item">55</li>
+        <li class="list__item">555</li>
+        <li class="list__item">4454</li>
+        <li class="list__item">54</li>
+        <li class="list__item">52</li>
+        <li class="list__item">1</li>
+        <li class="list__item">3</li>
+        <li class="list__item">8</li>
+        <li class="list__item">7</li>
+      </ul>
+      <ul class="container__item list">
+        <li class="list__item">
+          <button id="1" class="list__btn btn">sort</button>
+        </li>
+        <li class="list__item">745</li>
+        <li class="list__item">48</li>
+        <li class="list__item">45</li>
+        <li class="list__item">121</li>
+        <li class="list__item">6346</li>
+        <li class="list__item">1315</li>
+        <li class="list__item">878</li>
+        <li class="list__item">1212</li>
+        <li class="list__item">778787</li>
+      </ul>
+      <ul class="container__item list">
+        <li class="list__item">
+          <button id="2" class="list__btn btn">sort</button>
+        </li>
+        <li class="list__item">1212</li>
+        <li class="list__item">564</li>
+        <li class="list__item">1235</li>
+        <li class="list__item">878</li>
+        <li class="list__item">45452</li>
+        <li class="list__item">545</li>
+        <li class="list__item">745</li>
+        <li class="list__item">7878</li>
+        <li class="list__item">545</li>
+      </ul>
+      <ul class="container__item list">
+        <li class="list__item">
+          <button id="3" class="list__btn btn">sort</button>
+        </li>
+        <li class="list__item">13412</li>
+        <li class="list__item">564</li>
+        <li class="list__item">123345</li>
+        <li class="list__item">8783</li>
+        <li class="list__item">454352</li>
+        <li class="list__item">5435</li>
+        <li class="list__item">7453</li>
+        <li class="list__item">78378</li>
+        <li class="list__item">5453</li>
+      </ul>
+      <ul class="container__item list">
+        <li class="list__item">
+          <button id="4" class="list__btn btn">sort</button>
+        </li>
+        <li class="list__item">12182</li>
+        <li class="list__item">5649</li>
+        <li class="list__item">12305</li>
+        <li class="list__item">8708</li>
+        <li class="list__item">45452</li>
+        <li class="list__item">5405</li>
+        <li class="list__item">7405</li>
+        <li class="list__item">78078</li>
+        <li class="list__item">5405</li>
+      </ul>
+    </div>
+    <div id="containerSize" class="containerSiz">
+      <span
+        >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis,
+        odio!</span
+      >
+      <span id="close" class="close"></span>
+    </div>
   </body>
 </html>
