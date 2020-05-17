@@ -1,0 +1,43 @@
+body {
+  padding-top: 200px;
+}
+.calc {
+  margin: 0 auto;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 450px;
+  height: 450px;
+  &__input {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  &__buttons {
+    width: 100%;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  &__btn {
+    transition: all ease 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    margin-right: 1%;
+    &:last-child {
+      width: 200px;
+    }
+    &:hover {
+      background-color: brown;
+    }
+  }
+}
