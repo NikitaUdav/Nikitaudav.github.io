@@ -1,0 +1,22 @@
+.btn-buy {
+  transition: all ease 0.5s;
+  cursor: pointer;
+  width: 164px;
+  height: 55px;
+  outline: none;
+  border: none;
+  background-color: $btn-buy;
+  @include text($H200, 700, $white);
+  text-transform: uppercase;
+  border-radius: 2px;
+  &:hover {
+    color: $dark;
+    background-color: $sale;
+    &::before {
+      content: "!   ";
+    }
+    &::after {
+      content: "   !";
+    }
+  }
+}

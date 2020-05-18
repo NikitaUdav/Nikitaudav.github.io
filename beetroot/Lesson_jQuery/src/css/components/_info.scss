@@ -1,0 +1,75 @@
+.content-info {
+  &__aside {
+    padding-top: 60px;
+    padding-left: 47px;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    max-width: 248px;
+  }
+  &__article {
+    padding-top: 58px;
+    padding-right: 41px;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+  }
+}
+.article-info {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+  }
+  &__title {
+    padding-top: 7px;
+    @include text($H600, 400, $light);
+    margin-bottom: 5px;
+  }
+  &__subtitle {
+    @include text($H100, 400, $light);
+  }
+  &__text {
+    @include text($H100, 400, $text);
+    line-height: 23px;
+    margin-bottom: 53px;
+  }
+}
+.img {
+  &__container--info {
+    position: relative;
+    max-width: 175px;
+    padding-bottom: 124%;
+    margin-bottom: 6px;
+  }
+}
+.raiting {
+  padding-left: 18px;
+  max-width: 150px;
+  justify-content: space-between;
+  display: flex;
+  &__star-icon {
+    :hover {
+      fill: yellow;
+    }
+  }
+}
+.raiting {
+  display: flex;
+  &__star-icon {
+    width: 19.242px;
+    height: 18.151px;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  @include text($H600, 400, $white);
+
+  &__sale {
+    padding-left: 3px;
+    @include text($H50, 700, $sale);
+  }
+}

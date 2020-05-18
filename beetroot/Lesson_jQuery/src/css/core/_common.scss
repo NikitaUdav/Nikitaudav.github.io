@@ -14,7 +14,13 @@ ul {
 a {
   text-decoration: none;
 }
-
+.nodata {
+  font-size: 40px;
+  transition: all ease 0.5s;
+  padding-top: 150px;
+  color: $white;
+  margin: 0 auto;
+}
 .img {
   position: absolute;
   top: 0;
@@ -38,6 +44,6 @@ a {
   object-fit: cover;
   object-position: 50% 50%;
   @media screen and (min-width: $screen-tablet) {
-    object-position: 100% 10%;
+    object-position: 100% 0%;
   }
 }

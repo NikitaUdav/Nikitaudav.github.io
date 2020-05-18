@@ -1,0 +1,78 @@
+.shop-card {
+  background-color: $dark;
+  margin: 0 auto;
+  flex: 1 1;
+  width: 100%;
+  max-width: 600px;
+  max-height: 541px;
+}
+.size-section {
+  padding-top: 145px;
+  padding-left: 50px;
+  height: 120vh;
+}
+.opacity {
+  opacity: 13%;
+}
+.active {
+  fill: $white;
+  display: flex;
+}
+.hiden {
+  display: none;
+}
+.navigation {
+  padding-top: 5px;
+  display: flex;
+  max-height: 115px;
+  height: 100%;
+  background-color: $grey;
+  justify-content: center;
+  padding-left: 10px;
+  &__item {
+    transition: all ease 0.2s;
+    max-width: 148px;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid $grey;
+    &:hover {
+      border-bottom: 3px solid white;
+    }
+    &:hover .navigation__icon {
+      color: $white;
+      fill: #ffff;
+    }
+    &:hover .navigation__text {
+      color: $white;
+      fill: #ffff;
+    }
+    &:not(:last-child) {
+      margin-right: 33px;
+    }
+  }
+  &__text {
+    text-decoration: none;
+    @include text($H200, 400, $text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__view {
+    width: 100%;
+    background-color: $dark;
+    list-style: none;
+    display: flex;
+  }
+  &__content {
+    height: 100%;
+    width: 100%;
+  }
+  &__icon {
+    fill: #b7bacd;
+    margin-bottom: 11px;
+  }
+}
