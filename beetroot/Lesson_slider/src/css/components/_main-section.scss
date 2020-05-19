@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  max-width: 1008px;
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  @include text($H900, 700, $black);
+  max-width: 1000px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.subtitle {
+  @include text($H300, 600, $black);
+}
+.glide {
+  background-color: $black;
+  margin-bottom: 400px;
+  &__slide {
+    position: relative;
+  }
+  &__img {
+    max-width: 440px;
+  }
+}

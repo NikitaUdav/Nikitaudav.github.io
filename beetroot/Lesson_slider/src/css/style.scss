@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "./core/vars";
+@import "./core/mixins";
+@import "./core/common";
+// основные секции
+@import "./components/main-section";

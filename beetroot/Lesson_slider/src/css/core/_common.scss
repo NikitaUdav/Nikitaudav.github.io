@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $base-font;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.nodata {
+  font-size: 40px;
+  transition: all ease 0.5s;
+  padding-top: 150px;
+  color: $white;
+  margin: 0 auto;
+}
+.img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.back-img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  @media screen and (min-width: $screen-tablet) {
+    object-position: 100% 0%;
+  }
+}

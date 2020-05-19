@@ -1,0 +1,46 @@
+// Colors
+$white: #ffffff;
+$light: #fbfbfb;
+$grey-light: #e8e8e8;
+$grey: #2b3040;
+$dark: #212534;
+$darker: #232323;
+$blue: #5474fd;
+$black: #000;
+$palaceholder: #999999;
+$sale: #fedc3f;
+$text: #b7bacd;
+$btn-buy: #13e28d;
+$darker-op: rgba(35, 35, 35, 0.9);
+// Fonts
+$base-font: "Poppins", sans-serif;
+$secondary-font: "Josefin Sans", sans-serif;
+
+@function calcRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+$H900: calcRem(86px);
+$H800: calcRem(60px);
+$H700: calcRem(48px);
+$H600: calcRem(32px);
+$H500: calcRem(24px);
+$H400: calcRem(22px);
+$H350: calcRem(20px);
+$H300: calcRem(18px);
+$H200: calcRem(16px);
+$H100: calcRem(14px);
+$H50: calcRem(12px);
+$H10: calcRem(13px);
+
+$max-width: 1200px;
+
+$screen-iphone: 375px;
+$screen-iphone-plus: 414px;
+$screen-tablet: 768px;
+$screen-desktop: 1024px;
+$screen-desktop-large: 1280px;
+$screen-hd: 1366px;
+$screen-fullhd: 1440px;
+$screen-retina: 1660px;

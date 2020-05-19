@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <section class="container">
+      <header class="header">
+        <span class="subtitle">OUR FEATURED WORK</span>
+        <h1 class="title">
+          WE CREATE ENGAGING EXPERIENCES THROUGH CREATIVITY & CRAFT
+        </h1>
+      </header>
+      <div class="glide slider-size">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <img class="glide__img" src="/images/foto1.png" alt="foto1" />
+            </li>
+            <li class="glide__slide">
+              <img class="glide__img" src="/images/foto2.png" alt="foto2" />
+            </li>
+            <li class="glide__slide">
+              <img class="glide__img" src="/images/foto3.png" alt="foto3" />
+            </li>
+            <li class="glide__slide">
+              <img class="glide__img" src="/images/foto4.png" alt="foto4" />
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            prev
+          </button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            next
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/@glidejs/glide"></script>
+    <script>
+      new Glide(".glide").mount();
+    </script>
+  </body>
+</html>
