@@ -38,3 +38,5 @@
 #### [Lesson 29_Dom](https://Nikitaudav.github.io/beetroot/Lesson_Dom/dist) 
 
 #### [Lesson 31_events](https://Nikitaudav.github.io/beetroot/Lesson_events/) 
+
+#### [Lesson 32 jQuery](https://Nikitaudav.github.io/beetroot/Lesson_jQuery/build) 
