@@ -14,13 +14,14 @@
   position: relative;
   margin-bottom: 92px;
   &__title {
-    @include text($H900, 600, $black);
+    @include text($H700, 600, $black);
     line-height: 90px;
     max-width: 1200px;
     text-align: center;
     text-transform: uppercase;
-
-    padding-left: px;
+    @media screen and (min-width: $screen-tablet) {
+      @include text($H900, 600, $black);
+    }
   }
   &__subtitle {
     @include text($H300, 600, $black);
@@ -40,7 +41,6 @@
   top: 237px;
 }
 .glide {
-  margin-bottom: 400px;
   width: 100%;
   max-width: 1400px;
   max-height: 440px;
@@ -54,6 +54,10 @@
     object-position: center;
   }
   &__arrow {
+    display: none;
+    @media screen and (min-width: $screen-tablet) {
+      display: block;
+    }
     border: none;
     box-shadow: none;
   }
