@@ -41,12 +41,6 @@
   top: 237px;
 }
 .glide {
-  width: 100%;
-  max-width: 1400px;
-  max-height: 440px;
-  &__slide {
-    position: relative;
-  }
   &__img {
     width: 100%;
     height: 100%;
@@ -64,8 +58,13 @@
 }
 .slide {
   &__container {
-    padding-bottom: 117%;
+    margin: 0 auto;
+    padding-bottom: 100%;
     position: relative;
-    max-height: 440px;
+    @media screen and (min-width: $screen-tablet) {
+      margin: auto auto;
+      width: 440px;
+      height: 400px;
+    }
   }
 }
