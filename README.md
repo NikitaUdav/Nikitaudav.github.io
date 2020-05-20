@@ -40,3 +40,6 @@
 #### [Lesson 31_events](https://Nikitaudav.github.io/beetroot/Lesson_events/) 
 
 #### [Lesson 32 jQuery](https://Nikitaudav.github.io/beetroot/Lesson_jQuery/build) 
+
+#### [Lesson 33 Slider](https://Nikitaudav.github.io/beetroot/Lesson_slider/build) 
+
