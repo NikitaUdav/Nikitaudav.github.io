@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Far Cry 4</title>
   </head>
   <body>
     <section class="container size-section">
-      <img class="back-img opacity" src="../images/main.jpg" alt="main" />
+      <img class="back-img opacity" src="/images/main.jpg" alt="main" />
       <div class="shop-card">
         <ul id="navigation-tabs" class="navigation">
           <li class="navigation__item">
@@ -69,8 +70,8 @@
         <ul id="navigation-view" class="navigation__view">
           <li class="navigation__content content-info active">
             <aside class="content-info__aside">
-              <div class="img__container--info">
-                <img class="img" src="../images/cover.png" alt="cover" />
+              <div class="img__container img__container--info">
+                <img class="img" src="/images/cover.png" alt="cover" />
               </div>
               <div class="raiting">
                 <svg class="raiting__star-icon">
@@ -98,8 +99,8 @@
                     >First Released Nov 17, 2014</span
                   >
                 </div>
-                <div class="img__container">
-                  <img src="../images/score.png" alt="score" />
+                <div>
+                  <img src="/images/score.png" alt="score" />
                 </div>
               </header>
               <p class="article-info__text">
@@ -108,9 +109,9 @@
                 regime of a despotic self-appointed king.
               </p>
               <div class="footer">
-                <div class="price__container">
+                <div class="price">
                   <span class="price__sale">20% OFF!</span>
-                  <h2 class="price">$59.96</h2>
+                  <h2 class="price__main">$59.96</h2>
                 </div>
                 <button class="btn-buy">buy it now</button>
               </div>
@@ -132,8 +133,8 @@
           />
         </symbol>
       </svg>
-      <script src="../js/shop-app.js"></script>
-      <script src="../js/jquery-3.5.1.js"></script>
     </section>
+
+    <script src="../js/shop-app.js"></script>
   </body>
 </html>
