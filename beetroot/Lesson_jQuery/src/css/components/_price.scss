@@ -1,0 +1,9 @@
+.price {
+  &__main {
+    @include text($H600, 400, $white);
+  }
+  &__sale {
+    padding-left: 3px;
+    @include text($H50, 700, $sale);
+  }
+}

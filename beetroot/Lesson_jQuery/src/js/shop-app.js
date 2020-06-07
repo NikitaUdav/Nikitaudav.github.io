@@ -1,8 +1,6 @@
 "use strict";
 
-import $ from "jquery";
-
-const a = $("#navigation-view");
+const $navigationView = $("#navigation-view");
 $("#navigation-view")
   .children()
   .each((idx, el) => {
@@ -28,4 +26,4 @@ $("#navigation-tabs")
         });
     });
   });
-console.log(a);
+console.log($navigationView);
