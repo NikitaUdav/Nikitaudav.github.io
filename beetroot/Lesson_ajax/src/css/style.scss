@@ -1,0 +1,17 @@
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+body {
+  background-color: black;
+}
+.photos {
+  list-style: none;
+}
+.item {
+  height: 400px;
+  margin-bottom: 24px;
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
